@@ -82,7 +82,7 @@ input[type="password"] {
 border-radius: 10px;
 margin-bottom:30px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:300px) {
   #Form{
     margin-top:10px;
   }
