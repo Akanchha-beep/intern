@@ -1,0 +1,92 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://th.bing.com/th/id/R.3d88a927f8529dcba03364b09d98adbe?rik=JYmQaMVSULpYQg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-images.jpg&ehk=BNPsuSOUR7ATZ3EpRwxx1xFl7LUbO3tYlu1wFLCBrCE%3d&risl=&pid=ImgRaw&r=0");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-fluid{
+  height:50px;
+  width: 50px;
+  float:left;
+  margin-left: 200px;
+  margin-top:300px;
+}
+.first{
+  color:white;
+  z-index:5;
+  float:center;
+  margin-top: 300px;
+}
+.btn btn-primary{
+  width: 70px;
+            height: 70px;
+            padding: 10px 16px;
+            border-radius: 55px;
+            font-size: 12px;
+            text-align: center;
+}
+.line{
+  text-align:center;
+  line-height:0.1em;
+  position:relative;
+  margin:10px 0 20px;
+  background:#FFF;
+}
+.line span{
+   background:#FFF;
+   z-index:2;
+   position: relative;
+}
+.line:before{
+  content:'';
+  position:absolute;
+  display:block;
+  top:50%;
+  height:1px;
+  width: 500px;
+  background:#959595;
+  left:50%;
+  z-index:1;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+}
+input[type="email"]{
+  border: 0;
+  border-bottom: 1px solid #959595;
+  outline: 0;
+  width: 100%;
+}
+input[type="password"] {
+  border: 0;
+  border-bottom: 1px solid #959595;
+  outline: 0;
+  width: 100%;
+}
+.link{
+  height:5%;
+  width:5%;
+  margin-bottom:50px;
+}
+#Form{
+  margin-top:50px;
+border-radius: 10px;
+margin-bottom:30px;
+}
+@media screen and (max-width:500px) {
+  #Form{
+    margin-top:10px;
+  }
+  .first,.img-fluid{
+    margin-top:0px;
+  }
+}
